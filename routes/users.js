@@ -2,7 +2,7 @@ const express = require("express");
 
 // JSON data import
 const {users} = require("../data/users.json");
-const { getAllUsers, getSingleUserById, deleteUser, updateUserById, createNewUser, getSubscriptionDetailsById } = require("../controllers/user-controller");
+const { getAllUsers, getSingleUserById, deleteUser, updateUserById, createNewUser, getSubscriptionDetailsById } = require("../controllers/user-controllers");
 
 const router = express.Router();
 

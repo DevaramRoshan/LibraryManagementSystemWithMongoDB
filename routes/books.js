@@ -5,8 +5,8 @@ const {books} = require("../data/books.json");
 const {users} = require("../data/users.json");
 
 const {UserModel, BookModel} = require("../models");
-const { getAllBooks, getSingleBookById, getAllIssuedBooks, addNewBook } = require("../controllers/book-controller");
-const { updateBookById } = require("../controllers/book-controller");
+const { getAllBooks, getSingleBookById, getAllIssuedBooks, addNewBook } = require("../controllers/book-controllers");
+const { updateBookById } = require("../controllers/book-controllers");
 
 const router = express.Router();
 
